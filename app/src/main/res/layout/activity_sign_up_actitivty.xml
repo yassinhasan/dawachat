@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActitivty"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:gravity="center"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:gravity="center_horizontal"
+        >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/main_title"
+        android:text="@string/main_title"
+        android:textSize="@dimen/biggest_font"
+        android:textColor="@color/White"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="50dp"
+        />
+        <EditText
+            android:id="@+id/input_email_signup"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@drawable/rounded_editext"
+            app:cornerRadius= "10sp"
+            android:paddingStart="20dp"
+            android:hint="Enter Your Email"
+            android:layout_marginBottom="15dp"
+            android:inputType="textEmailAddress"
+            android:textSize="20sp"/>
+        <EditText
+            android:id="@+id/input_password_signup"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@drawable/rounded_editext"
+            android:height="60dp"
+            android:paddingStart="20dp"
+            app:cornerRadius= "10sp"
+            android:inputType="textPassword"
+            android:hint="Enter Your Password"
+            android:textColor="@color/primaryColor"
+            android:layout_marginBottom="15dp"
+            android:textSize="20sp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20sp"
+            android:gravity="center">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="65sp"
+                android:id="@+id/signup_btn"
+                android:text="Sign Up"
+                android:textSize="17sp"
+                app:cornerRadius = "5sp"
+                android:clickable="true"
+                android:backgroundTint="@color/CornflowerBlue"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20sp"
+            android:gravity="center_horizontal">
+            <Button
+                android:layout_gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="65sp"
+                android:id="@+id/google_btn"
+                android:text="Sign In Witg Google"
+                android:drawableLeft="@drawable/left_google_drwable"
+                android:textColor="@color/primaryColor"
+                android:textSize="15sp"
+                app:cornerRadius = "5sp"
+                android:layout_marginRight="20sp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:clickable="true"
+                android:backgroundTint="@color/White"
+                android:layout_marginBottom="10dp"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="65sp"
+                android:id="@+id/facebok_btn"
+                android:text="Sign In Witg Facebok"
+                android:drawableLeft="@drawable/left_facebook_drwable"
+                android:textColor="@color/primaryColor"
+                android:textSize="15sp"
+                app:cornerRadius = "5sp"
+                android:layout_marginRight="20sp"
+                android:clickable="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:backgroundTint="@color/White"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
