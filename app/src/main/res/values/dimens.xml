@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="big_font">30sp</dimen>
-    <dimen name="biggest_font">40sp</dimen>
+    <dimen name="big_font">25sp</dimen>
+    <dimen name="biggest_font">33sp</dimen>
+    <dimen name="edit_text_fontsize">14sp</dimen>
+    <dimen name="edittext_height">45dp</dimen>
+    <dimen name="button_fontsize">14sp</dimen>
+    <dimen name="social_fontsize">13sp</dimen>
+    <dimen name="footer_btn">20sp</dimen>
 </resources>

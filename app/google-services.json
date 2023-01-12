@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "370616056808",
+    "firebase_url": "https://dawachat-e0144-default-rtdb.firebaseio.com",
+    "project_id": "dawachat-e0144",
+    "storage_bucket": "dawachat-e0144.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:370616056808:android:ccd280a81ae5b44aee025d",
+        "android_client_info": {
+          "package_name": "com.myproject.dawachat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "370616056808-u59s2s4fd1n12b933mjimkqk8g1ii4j7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUeuiZgZGZzQI8y5QRoyEiw1uTIyhOXVA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "370616056808-u59s2s4fd1n12b933mjimkqk8g1ii4j7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -20,29 +20,19 @@
         android:layout_marginEnd="30dp"
         android:gravity="center_horizontal"
         >
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/main_title"
-        android:text="@string/main_title"
-        android:textSize="@dimen/biggest_font"
-        android:textColor="@color/White"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="50dp"
-        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/main_title"
+            android:text="@string/main_title"
+            android:textSize="@dimen/biggest_font"
+            android:textColor="@color/White"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="50dp"
+            />
+
         <EditText
-            android:id="@+id/input_username_signup"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/edittext_height"
-            android:background="@drawable/rounded_editext"
-            app:cornerRadius= "10sp"
-            android:paddingStart="20dp"
-            android:hint="Enter Your Name"
-            android:layout_marginBottom="15dp"
-            android:inputType="textPersonName"
-            android:textSize="@dimen/edit_text_fontsize"/>
-        <EditText
-            android:id="@+id/input_email_signup"
+            android:id="@+id/input_email_signin"
             android:layout_width="match_parent"
             android:layout_height="@dimen/edittext_height"
             android:background="@drawable/rounded_editext"
@@ -53,7 +43,7 @@
             android:inputType="textEmailAddress"
             android:textSize="@dimen/edit_text_fontsize"/>/>
         <EditText
-            android:id="@+id/input_password_signup"
+            android:id="@+id/input_password_signin"
             android:layout_width="match_parent"
             android:layout_height="@dimen/edittext_height"
             android:background="@drawable/rounded_editext"
@@ -66,10 +56,10 @@
             android:layout_marginBottom="15dp"
             android:textSize="@dimen/edit_text_fontsize"/>/>
         <TextView
-            android:id="@+id/signin_btn"
+            android:id="@+id/signup_link"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="already have account"
+            android:text="click here to sign up"
             android:textColor="@color/White"
             android:gravity="end"
             android:textSize="14sp"
@@ -83,10 +73,10 @@
             android:gravity="center">
             <Button
                 android:layout_width="wrap_content"
-                android:layout_height="65sp"
-                android:id="@+id/signup_btn"
-                android:text="Sign Up"
-                android:textSize="17sp"
+                android:layout_height="50sp"
+                android:id="@+id/signin_btn"
+                android:text="Sign In"
+                android:textSize="@dimen/button_fontsize"
                 app:cornerRadius = "5sp"
                 android:clickable="true"
                 android:backgroundTint="@color/CornflowerBlue"
@@ -104,10 +94,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="65sp"
                 android:id="@+id/google_btn"
-                android:text="Sign In Witg Google"
+                android:text="Sign In With Google"
                 android:drawableLeft="@drawable/left_google_drwable"
                 android:textColor="@color/primaryColor"
-                android:textSize="15sp"
+                android:textSize="@dimen/social_fontsize"
                 app:cornerRadius = "5sp"
                 android:layout_marginRight="20sp"
                 android:layout_marginStart="10dp"
@@ -120,10 +110,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="65sp"
                 android:id="@+id/facebok_btn"
-                android:text="Sign In Witg Facebok"
+                android:text="Sign In With Facebok"
                 android:drawableLeft="@drawable/left_facebook_drwable"
                 android:textColor="@color/primaryColor"
-                android:textSize="15sp"
+                android:textSize="@dimen/social_fontsize"
                 app:cornerRadius = "5sp"
                 android:layout_marginRight="20sp"
                 android:clickable="true"
@@ -134,11 +124,11 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Signup With Phone"
+                android:text="Sigin With Phone"
                 android:textColor="@color/White"
                 android:gravity="center_horizontal"
                 android:layout_marginTop="20dp"
-                android:textSize="25sp"/>
+                android:textSize="@dimen/footer_btn"/>
         </LinearLayout>
 
     </LinearLayout>

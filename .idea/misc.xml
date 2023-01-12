@@ -4,8 +4,13 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/smsmh/Downloads/DawaChat/app/src/main/res/drawable-v24/left_facebook_drwable.xml" value="0.312" />
+        <entry key="..\:/Users/smsmh/Downloads/DawaChat/app/src/main/res/drawable/left_google_drwable.xml" value="0.308" />
+        <entry key="..\:/Users/smsmh/Downloads/DawaChat/app/src/main/res/drawable/rounded_editext.xml" value="0.308" />
+        <entry key="..\:/Users/smsmh/Downloads/DawaChat/app/src/main/res/layout/activity_login.xml" value="0.21105072463768115" />
         <entry key="..\:/Users/smsmh/Downloads/DawaChat/app/src/main/res/layout/activity_main.xml" value="0.21875" />
         <entry key="..\:/Users/smsmh/Downloads/DawaChat/app/src/main/res/layout/activity_sign_up_actitivty.xml" value="0.25" />
+        <entry key="..\:/Users/smsmh/Downloads/DawaChat/app/src/main/res/layout/progressbar.xml" value="0.21105072463768115" />
+        <entry key="..\:/Users/smsmh/Downloads/DawaChat/app/src/main/res/menu/menu.xml" value="1.1592039800995024" />
       </map>
     </option>
   </component>
